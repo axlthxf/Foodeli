@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color:transparent !important;;
+    /* padding: 10px; */
+    padding-top: 20px;
+}
+nav .logoimg{
+    width: 28px;
+    padding: 10px;
+    background-color: #EB0029;
+}
+nav .logoimg p{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+}
+.logo{
+    width:140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h3{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+nav .header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+   
+    margin-left: 5%;
+}
+.images .searchicon img{
+    width: 25px;
+    position: relative;
+}
+.searchicon img:hover{
+    top: -0.16em;
+    transition: padding 0.5s, top 0.35s, box-shadow 0.4s;
+    /* margin-bottom: 3px; */
+    cursor: pointer;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart img{
+    width: 25px;
+    position:absolute;
+}
+.cart .color{
+    position: relative;
+    top: -10px;
+    right: -10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    padding: 1px;
+    /* margin-bottom: 15px; */
+}
+.cart .color p{
+font-size: 9px;
+color: white;
+margin-left: 2px;
+font-weight: 200px;
+ 
+}
+.cart:hover{
+        margin-bottom: 4px;
+        cursor: pointer;
+    /* top: -0.16em;
+    transition: padding 0.5s, top 0.35s, box-shadow 0.4s; */
+}
+
+.navlinks {
+    width:500px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    border: none;
+}
+.navlinks ul a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+}
+ul a:hover{
+    color:#EB0029;
+}
+.images{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.images .login{
+    width: 80px;
+    padding: 15px;
+    background-color: #EB0029;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+}
+.login:hover{
+    background-color: #d8301d;
+    cursor: pointer;
+    /* margin-bottom: 4px; */
+    transform: rotateX('360');
+    /* transition: 1s linear; */
+
+}
