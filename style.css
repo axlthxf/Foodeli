@@ -17,6 +17,10 @@ nav .logoimg{
     padding: 10px;
     background-color: #EB0029;
 }
+nav .logoimg:hover{
+    transition: 1s ease-in-out;
+    transform: rotate(360deg) scale(1.1);
+}
 nav .logoimg p{
     color: #fff;
     font-weight: bold;
@@ -125,8 +129,163 @@ ul a:hover{
 .login:hover{
     background-color: #d8301d;
     cursor: pointer;
+    /* transition: padding 0.5s, top 0.35s, box-shadow 0.4s;  */
+    /* visibility: hidden; */
     /* margin-bottom: 4px; */
-    transform: rotateX('360');
-    /* transition: 1s linear; */
+    /* transform: rotateX('360deg'); */
+    transition: 1s ease-in-out;
+    transform: rotate(-10deg) scale(1);
+}
+.hero{
+    width: 85%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.hero .contents{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.contents .cherry{
+    width: 170px;
+    background-color: #fdebd4e9;
+    border-radius: 30px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contents .cherry p{
+    font-size: 15px;
+    color:#d8301d;
+    font-weight: 500;
+    padding: 0;
+}
+.cherry img{
+   padding-left: 15px;
+}
+.cherry img:hover{
+    transition: 1s ease-in-out;
+    transform: rotate(360deg) scale(1.1);
+}
+.contents h1{
+    padding-top: 40px;
+    font-size: 65px;
+}
+.contents span{
+    color: #d8301d;
+    font-style: italic;
+}
+.contents p{
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.674);
+}
+.hero .mainimage{
+    width: 45%;
+}
+.hero .mainimage img{
+    width: 650px !important;
+}
+.contents .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.contents .signup{
+    width: 220px;
+    height: 40px;
+    padding: 20px;
+    background-color: #EB0029;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 45px;
+}
+.contents .signup p{
+    font-size: 19px;
+    font-weight: 400;
+    color: #fff;
+}
 
+.contents .signup:hover{
+    background-color: #b51e0d;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.contents .vedio {
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 45px;
+    gap: 10px;
+}
+.img{
+    width: 40px;
+    height: 30px;
+    padding: 10px;
+    background-color: #ffca45;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.contents .vedio img{
+    width: 15px;
+}
+.contents .vedio p{
+    padding: 0;
+}
+.img:hover{
+    background-color: #fae9b6fd;
+    /* transform: scale(1.05);
+    transition: 0.3s; */
+    cursor: pointer;
+    transition: 2s;
+}
+.service{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+    /* display: flex; */
+}
+.servicesec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+body .servicesec h1{
+
+    font-size: 55px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+body .servicesec h3{
+    color: #EB0029;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.service .services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;    
+    background-color: black;
 }
